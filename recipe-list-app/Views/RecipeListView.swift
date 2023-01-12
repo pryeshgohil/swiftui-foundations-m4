@@ -32,7 +32,7 @@ struct RecipeListView: View {
                                         Image(r.image)
                                             .resizable()
                                             .scaledToFill()
-                                            .frame(width: 50, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                            .frame(width: 50, height: 50, alignment: .center)
                                             .clipped()
                                             .cornerRadius(5.0)
                                         Text(r.name)
